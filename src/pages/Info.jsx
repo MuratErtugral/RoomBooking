@@ -11,9 +11,9 @@ const Info = () => {
   const capacity = searchParams.get('capacity');
 
   return (
-    <Container>
+    <Container >
       <Row >
-        <Col xs={12} sm={10} md={8}>
+        <Col xs={12} sm={10} md={8} className='mx-auto'>
           <div className="info-container">
             <div className="info-content">
               <h2>Reservation Details</h2>
